@@ -11,6 +11,7 @@ requires "nim >= 0.12.1"
 
 task tests, "test my examples":
   exec "nim c -r --nimcache:./nimcache ./examples/*.nim"
+  echo "All tests are done."
 
 # Local Variables:
 # mode: nim
