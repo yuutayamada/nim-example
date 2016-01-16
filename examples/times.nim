@@ -9,3 +9,4 @@ when isMainModule:
   var num = 0
   5.times: num += 1
   assert(5 == num)
+  echo "count til 5"
